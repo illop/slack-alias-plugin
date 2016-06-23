@@ -2,7 +2,7 @@ var slackbot = require('./lib/bot');
 
 var config = {
     bot_name: "IOBot",//Provide the name to post under
-    token: 'xoxp-22963160544-53818543251-53867049780-3d0b1d6350',
+    token: 'xoxb-53880936535-IDsRY9NX7GomHcId4C3jXlos',
     alias_maps: {
       "ulna": ["illop"],
     },
