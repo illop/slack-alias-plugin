@@ -3,10 +3,7 @@ var slackbot = require('./lib/bot');
 var config = {
     bot_name: "",//Provide the name to post under
     token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
-    alias_maps: {
-      "BAR": ["cool", "aliases"],
-      "FOO": ["bar"],
-    },
+    alias_maps: JSON.parse(fs.readFileSync('./alias_maps_example.txt','utf-8')),
 
     helpName: "ALIASHELP",
     verbose: true,

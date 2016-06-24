@@ -28,5 +28,6 @@ node_modules
 .lock-wscript
 
 config-illop.js
+alias_maps.txt
 *.iml
 .idea
