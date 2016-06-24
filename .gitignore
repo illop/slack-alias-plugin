@@ -27,6 +27,6 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 
-config-alias.js
+config-illop.js
 *.iml
 .idea
