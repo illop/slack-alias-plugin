@@ -61,6 +61,5 @@ This will launch the bot in your terminal based on provided configuration.
 
 ## TODO:
 
-- Make the lists survive bot restarts
 - Make alias lists for each channel
 - Make a global alias list
