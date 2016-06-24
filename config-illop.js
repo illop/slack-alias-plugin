@@ -4,8 +4,8 @@ var config = {
     bot_name: "DickButt",//Provide the name to post under
     token: 'xoxb-53880936535-IDsRY9NX7GomHcId4C3jXlos',
     alias_maps: {
-      "ulna": ["illop"],
-      "croncho": ["trevelyan"]
+      "ulna": ["@illop"],
+      "croncho": ["@trevelyan"]
     },
 
     helpName: "ALIASHELP",
