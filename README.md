@@ -1,6 +1,6 @@
 # Slack Alias Plugin
 
-A Slack plugin for expanding aliases to actual people  
+A Slack plugin for expanding aliases to actual people. Originally cloned from https://github.com/gsingers/slack-alias-plugin.git  
 
 It does the following:
 
@@ -47,7 +47,7 @@ slackbot.run();
 
 Save this to a file in the root of the project then run your bot with:
 
-    node your-config-file, eg.: node config-gsingers
+    node your-config-file, eg.: node config-illop
 
 This will launch the bot in your terminal based on provided configuration.
 
