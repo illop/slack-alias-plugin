@@ -29,5 +29,6 @@ node_modules
 
 config-illop.js
 alias_maps.txt
+alias_maps_by_channel.txt
 *.iml
 .idea
