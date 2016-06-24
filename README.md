@@ -5,11 +5,17 @@ A Slack plugin for expanding aliases to actual people
 It does the following:
 
 1. Anytime an @ mention of a key in the alias_maps is used, it will expand that to post the values into the window
+2. When a user types "alias set <alias> <list of users>", a new alias is created and added to alias_maps.
+3. When a user types "alias unset <list of aliases>", the listed aliases are removed from alias_maps.
+4. When a user types "alias update <alias> <list of users>", an existing alias is updated in alias_maps.
+5. When a user types "alias get <alias>", the bot reports what that alias is currently set to.
+6. When a user types "alias help", the bot responds with a list of current functionality.
+7. When a user types "alias help <command>", the bot explains how the command works.
 
 ## Usage
 
 ```javascript
-git clone https://github.com/gsingers/slack-alias-plugin.git
+git clone https://github.com/illop/slack-alias-plugin.git
 cd slack-alias-plugin
 npm install
 ```
@@ -55,4 +61,6 @@ This will launch the bot in your terminal based on provided configuration.
 
 ## TODO:
 
-- Make the lists updateable in slack
+- Make the lists survive bot restarts
+- Make alias lists for each channel
+- Make a global alias list
