@@ -1,1 +1,1 @@
-{"BAR": ["cool", "aliases"],"FOO": ["bar"]}
+{"global": {"BAR": ["cool", "aliases"],"FOO": ["bar"]}}
