@@ -61,5 +61,4 @@ This will launch the bot in your terminal based on provided configuration.
 
 ## TODO:
 
-- Make alias lists for each channel
-- Make a global alias list
+- None!
